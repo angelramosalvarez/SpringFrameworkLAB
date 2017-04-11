@@ -4,16 +4,16 @@ This is a complete example shows how create a web service for managing data for 
 
 College and its related objects are stored and retrieved from a caching layer during CRUD operations, and all data is lost when the application is stopped.
 
-	Compile project with Maven: 
+- Compile project with Maven: 
 	
 			mvn clean package
 	
-	Execute Jar application (Jar is created in target directory): 
+- Execute Jar application (Jar is created in target directory): 
 	
 			java -jar CollegeManagment.jar
 			
 			
-	Methods you can invoke:
+- Methods you can invoke:
 	
 	   HOST: http://localhost:8080
 	   Context: /collegemanagment
@@ -41,7 +41,7 @@ College and its related objects are stored and retrieved from a caching layer du
 		/v1/students/{id},methods=[GET]
 		
 		
-	EXAMPLES
+- EXAMPLES
 
 		Example1: CREATE A NEW COLLEGE
 	
